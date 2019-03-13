@@ -16,7 +16,6 @@
         android:ems="10"
         android:hint="Number 1"
         android:inputType="number"
-        android:textColor="@color/text_color"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,7 +30,6 @@
         android:ems="10"
         android:hint="Number 2"
         android:inputType="number"
-        android:textColor="@+color/text_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent" />

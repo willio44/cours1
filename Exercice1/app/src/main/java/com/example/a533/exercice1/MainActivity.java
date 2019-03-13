@@ -26,12 +26,16 @@ public class MainActivity extends AppCompatActivity {
 
         if(number1 == number2 ){
             Toast.makeText(this, "Equal", Toast.LENGTH_SHORT).show();
+            editTextCompareNumber2.setBackgroundColor(Color.rgb(255,255,255));
+            editTextCompareNumber1.setBackgroundColor(Color.rgb(255,255,255));
         }  else if(number1 > number2 ){
             Toast.makeText(this, "Number 1 plus grand ", Toast.LENGTH_SHORT).show();
-            editTextCompareNumber1.setTextColor(Color.rgb(200,0,0));
+            editTextCompareNumber1.setBackgroundColor(Color.rgb(0,200,0));
+            editTextCompareNumber2.setBackgroundColor(Color.rgb(255,255,255));
         }else {
             Toast.makeText(this, "Number 2 plus grand ", Toast.LENGTH_SHORT).show();
-            editTextCompareNumber2.setTextColor(Color.rgb(0,200,0));
+            editTextCompareNumber2.setBackgroundColor(Color.rgb(0,200,0));
+            editTextCompareNumber1.setBackgroundColor(Color.rgb(255,255,255));
         }
 
     }
